@@ -1,7 +1,7 @@
+nome = input('Entre com seu nome: ')
 while True:
     try:
-        nome = input('Entre com seun nome: ')
-        senha = int(input('Entre com sua senha: '))
+        senha = input('Entre com sua senha: ')
     except ValueError:
         print('Dados Inválidos!')
     else:
